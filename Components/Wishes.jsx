@@ -1,5 +1,6 @@
+import supabase from "@/lib/superbase";
 import React, { useState } from "react";
-import { supabase } from '@/pages/superbase';
+
 
 const Wishes = () => {
   const [wish, setWish] = useState({

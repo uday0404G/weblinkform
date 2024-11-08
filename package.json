@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/env": "^15.0.3",
     "@supabase/supabase-js": "^2.46.1",
     "classnames": "^2.5.1",
     "dot": "^1.1.3",
