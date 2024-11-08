@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.great-vibes {
+    font-family: 'Great Vibes', cursive;
+  }
+
+  .cinzel {
+    font-family: 'Cinzel', serif;
+  }
+
+  .figtree {
+    font-family: 'Figtree', sans-serif; /* Default font */
+  }
+
+  .shadow-top {
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Customize shadow values as needed */
+  }
+
+  @media (max-width:430px) {
+    .timeimg .img1{
+      margin-top: 2.5em !important;
+    }
+    .timeimg .img2{
+      margin-top: 1em !important;
+    }
+    .date12{
+      top:3.5em !important;
+    }
+    .date13{
+      top:2.5em !important;
+    }
+    .date14{
+      top:1.5em !important;
+    }
+    .body{
+    position: relative;
+    top: 0 !important;
+    z-index: 1111;
+  }
+  }
+  @media (max-width:768px) {
+    .hh{
+      font-size: 22px !important;
+    }
+    .pp{
+      font-size: 0.75rem !important;
+    }
+    .progress-line {
+    
+      height: 200px !important;
+      
+  }
+  }
+  @media (max-width:550px) {
+    .progress-circle {
+      width: 100px !important;
+      height: 100px !important;
+      border: 2px solid #ccc;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      position: relative;
+      z-index: 1;
+  }
+  .flowerimg1{
+    position: absolute;
+    top: -12px !important;
+    left: -16px !important;
+    width: 50%;
+  }
+  .flowerimg2{
+    position: absolute;
+    top: 80px !important;
+    right: -24px !important;
+    width: 70%;
+  }
+  .progress-line {
+    width: 2px;
+    height: 144px !important;
+    background-color: #ccc;
+    position: absolute;
+    z-index: -10 !important;
+    top: 96px !important;
+  }
+  }
+  @media (max-width:473px) {
+    .hh{
+      font-size: 14px !important;
+    }
+    .pp{
+      font-size: 0.5rem !important;
+    }
+    .progress-line {
+    
+      height:240px !important;
+      
+  }
+  
+  
+  }
+   @media (max-width:1880px) {
+    
+    .Home{
+      height: 100vh !important;
+    }
+    .homeimg{
+      height: max-content !important;
+    }
+  }
+  @media (max-width:330px) {
+    .progress-line{
+      height: 280px !important;
+    }
+  }
+  .progress-circle {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .progress-line {
+    width: 2px;
+    height: 260px;
+    background-color: #ccc;
+    position: absolute;
+    z-index: -10;
+    top: 148px;
+  }
+  .circlemain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  
+    
+  }
+  
