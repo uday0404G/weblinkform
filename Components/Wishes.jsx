@@ -1,7 +1,7 @@
 import { supabase } from "@/pages/superbade";
 import React, { useState } from "react";
 
-"use client";
+
 
 
 
